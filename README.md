@@ -35,9 +35,11 @@ heated bed
 
 Independent dual Z (this will allow for gantry self tram)
 
+PROBE
+
 **Not Working:**
 
-Z Probe
+TBD
 
 **Not Tested:**
 
@@ -52,6 +54,8 @@ Touchscreen (mine is missing)
 **Needed:**
 
 Optimize movement
+Bed Mesh
+
 
 
 If you are still here, to upload the firmware download the bin file and the cfg. rename the bin to firmware.bin and put it on the sd card. then upload the printer.cfg and macros.cfg to your klipper instance. 
