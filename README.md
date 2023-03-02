@@ -5,7 +5,7 @@ Klipper for the Mingda Magician X series ST 407 mainboard
 
 **USE AT YOUR OWN RISK**
 
-This is very much an alpha test.
+This is very much an alpha test and requires Klipper and GUI to be working on a raspberry pi or equivalent.
 
 The MMX uses a mcu STM32F407ZET6 192k ram 512k cache 168mhz with a custom boot loader, so modifications to the klipper code were needed to make the binary. 
 
@@ -18,6 +18,7 @@ here is an example of an A to A cable: https://www.amazon.com/Monoprice-Male-24A
 Klipper was configured to use stm32f407 mcu 64k bootloader offset 8mhz clock and usb pa11/pa12 (usb a) as the config options.
 
 the usb c port is on other pins. more work is needed. there is also usart 3 that needs to be tested.
+
 
 
 Its far from ready but here is whats working and whats not:
@@ -51,3 +52,6 @@ Touchscreen (mine is missing)
 **Needed:**
 
 Optimize movement
+
+
+If you are still here, to upload the firmware download the bin file and the cfg. rename the bin to firmware.bin and put it on the sd card. then upload the printer.cfg and macros.cfg to your klipper instance. 
