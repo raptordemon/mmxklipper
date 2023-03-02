@@ -20,13 +20,18 @@ Its far from ready but here is whats working and whats not:
 
 **Working**
 X&Y movement and homing
+
 Z motion and homing
+
 extruder & hot end
+
 heated bed
+
 Independent dual Z (this will allow for gantry self tram)
 
 **Not Working:**
 Z Probe
+
 Not Tested:
 SDcard
 Usb C port
