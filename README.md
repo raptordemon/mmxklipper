@@ -49,14 +49,19 @@ SDcard
 
 Usb C port
 
+Filament Runout
 
+NeoPixels
 
 Touchscreen (mine is missing)
 
 **Needed:**
 
 Optimize movement
+
 Bed Mesh
+
+Macros
 
 
 
