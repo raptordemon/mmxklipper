@@ -5,7 +5,7 @@ Klipper for the Mingda Magician X series ST 407 mainboard
 
 **USE AT YOUR OWN RISK**
 
-This is very much an alpha test and requires Klipper and GUI to be working on a raspberry pi or equivalent.
+This is very much an alpha test and requires Klipper and GUI to be working on a raspberry pi or equivalent. If you have not tried klipper yet do not attempt this.
 
 The MMX uses a mcu STM32F407ZET6 192k ram 512k cache 168mhz with a custom boot loader, so modifications to the klipper code were needed to make the binary. 
 
@@ -33,9 +33,11 @@ extruder & hot end
 
 heated bed
 
-Independent dual Z (this will allow for gantry self tram)
+Independent dual Z with Z tilt
 
 PROBE
+
+Z tilt
 
 **Not Working:**
 
@@ -47,7 +49,7 @@ SDcard
 
 Usb C port
 
-Z tilt
+
 
 Touchscreen (mine is missing)
 
