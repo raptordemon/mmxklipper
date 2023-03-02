@@ -35,6 +35,10 @@ heated bed
 
 Independent dual Z with Z tilt
 
+Filament Runout
+
+NeoPixels
+
 PROBE
 
 Z tilt
@@ -49,9 +53,6 @@ SDcard
 
 Usb C port
 
-Filament Runout
-
-NeoPixels
 
 Touchscreen (mine is missing)
 
@@ -66,3 +67,5 @@ Macros
 
 
 If you are still here, to upload the firmware download the bin file and the cfg. rename the bin to firmware.bin and put it on the sd card. then upload the printer.cfg and macros.cfg to your klipper instance. 
+
+Thanks to Josh and Grace for their help
