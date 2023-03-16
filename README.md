@@ -12,7 +12,7 @@ Here is an example of an A to A cable:
 <a href="https://www.amazon.com/Monoprice-Male-24AWG-Cable-Plated/dp/B002KKZRYM/ref=sr_1_6?crid=2VWT8AOWJONDZ&keywords=usb+a+to+a&qid=1677765580&sprefix=usb+a+to+%2Caps%2C358&sr=8-6"><img height=180 src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51hf51loE8L._AC_SX679_.jpg"></a>  
 (Clickable image - Amazon)
 
-**You must block off the 5v pin** on the cable or there will be damage to the Pi or The MMX mainboard.
+**You must block off the 5v pin** on the cable or there will be damage to the Pi or The MMX mainboard.  
 <img aling=left height=240 src="Assets/5v tape.jpeg" />
 
 ## About the firmware
