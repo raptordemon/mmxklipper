@@ -6,17 +6,14 @@ Klipper for the Mingda Magician X Series ST 407 mainboard
 
 ## Disclaimer
 **THIS IS FOR THE ST MAINBOARD ONLY - USE AT YOUR OWN RISK**
-
 **THIS USES THE USB A PORT**, to connect the printer you will need a USB A - USB A Cable.
 
 Here is an example of an A to A cable:
-[<img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51hf51loE8L._AC_SX679_.jpg">](https://www.amazon.com/Monoprice-Male-24AWG-Cable-Plated/dp/B002KKZRYM/ref=sr_1_6?crid=2VWT8AOWJONDZ&keywords=usb+a+to+a&qid=1677765580&sprefix=usb+a+to+%2Caps%2C358&sr=8-6)
+<a height=240 href="https://www.amazon.com/Monoprice-Male-24AWG-Cable-Plated/dp/B002KKZRYM/ref=sr_1_6?crid=2VWT8AOWJONDZ&keywords=usb+a+to+a&qid=1677765580&sprefix=usb+a+to+%2Caps%2C358&sr=8-6"><img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51hf51loE8L._AC_SX679_.jpg"></a>
+(Clickable image - Amazon)
 
 **You must block off the 5v pin** on the cable or there will be damage to the Pi or The MMX mainboard.
 <img aling=left height=240 src="Assets/5v tape.jpeg" />
-
-## Installation
-To upload the firmware download the specific bin file and the cfg. Rename the bin to firmware.bin and put it on the sd card. Then upload the printer.cfg and macros.cfg to your klipper instance.
 
 ## About the firmware
 This is very much an alpha test and requires Klipper and GUI to be working on a Raspberry Pi or equivalent. If you have not tried klipper before; do not attempt this.
@@ -48,6 +45,9 @@ Touchscreen (mine is missing)
 Optimize movement  
 Bed Mesh  
 Macros  
+
+## Installation
+To upload the firmware download the specific bin file and the cfg. Rename the bin to firmware.bin and put it on the sd card. Then upload the printer.cfg and macros.cfg to your klipper instance.
 
 ## Credits
 Thanks to Josh and Grace for their help
