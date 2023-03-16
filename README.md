@@ -20,6 +20,7 @@ This is very much an alpha test and requires Klipper and GUI to be working on a 
 The MMX uses a mcu STM32F407ZET6 192k ram 512k cache 168mhz with a custom boot loader, so modifications to the klipper code were needed to make the binary.  
 Klipper was configured to use STM32f407 MCU 64k bootloader offset 8mhz clock and usb pa11/pa12 (USB-A) as the config options.  
 The usb c port is on other pins and more work is needed to get it functional. There is also usart 3 that needs further testing.  
+USB C is on pb14/pb15 but we have not been able to make it work
 
 Its far from ready but here is whats working and whats not:
 
